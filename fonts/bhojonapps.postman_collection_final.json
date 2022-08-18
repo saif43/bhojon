@@ -1,0 +1,319 @@
+{
+	"info": {
+		"_postman_id": "b380fdfa-2965-4159-98fd-fc075953a86b",
+		"name": "bhojonapps",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://soft14.bdtask.com/bhojonapp/app/categorylist",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "android",
+							"value": "123",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://soft14.bdtask.com/bhojonapp/app/categorylist"
+			},
+			"response": []
+		},
+		{
+			"name": "https://soft14.bdtask.com/bhojonapp/app/foodlist",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "android",
+							"value": "123",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://soft14.bdtask.com/bhojonapp/app/foodlist"
+			},
+			"response": []
+		},
+		{
+			"name": "https://soft14.bdtask.com/bhojonapp/app/varientlist",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "android",
+							"value": "123",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://soft14.bdtask.com/bhojonapp/app/varientlist"
+			},
+			"response": []
+		},
+		{
+			"name": "https://soft14.bdtask.com/bhojonapp/app/addonslist/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "android",
+							"value": "123",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://soft14.bdtask.com/bhojonapp/app/addonslist"
+			},
+			"response": []
+		},
+		{
+			"name": "https://soft14.bdtask.com/bhojonapp/app/addonsassignlist/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "android",
+							"value": "123",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://soft14.bdtask.com/bhojonapp/app/addonsassignlist"
+			},
+			"response": []
+		},
+		{
+			"name": "https://soft14.bdtask.com/bhojonapp/app/placeorder",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "customer_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "full_name",
+							"value": "Rashed",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "02534646746",
+							"type": "text"
+						},
+						{
+							"key": "billing_address",
+							"value": "Dhaka",
+							"type": "text"
+						},
+						{
+							"key": "Pay_type",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "SubtotalTotal",
+							"value": "178.5",
+							"type": "text"
+						},
+						{
+							"key": "vat",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "grandtotal",
+							"value": "178.5",
+							"type": "text"
+						},
+						{
+							"key": "CartData",
+							"value": "[{\"ProductsID\":\"1\",\"ProductName\":\"Hamburgers\",\"ProductImage\":\"http://restaurant.bdtask.com/application/modules/itemmanage/assets/images/burger.jpg\",\"count\":1,\"total\":150,\"productvat\":\"3\",\"OffersRate\":\"0\",\"variantid\":\"1\",\"price\":\"150.00\",\"addonsinfo\":[{\"addonsid\":\"1\",\"add_on_name\":\"BBQ Sauce\",\"addonsprice\":\"25.00\",\"count\":0,\"total\":0},{\"addonsid\":\"5\",\"add_on_name\":\"Cheese\",\"addonsprice\":\"20.00\",\"count\":1,\"total\":20},{\"addonsid\":\"4\",\"add_on_name\":\"Mayo\",\"addonsprice\":\"30.00\",\"count\":0,\"total\":0}],\"addons\":1}]\n",
+							"type": "text"
+						},
+						{
+							"key": "shippingtype",
+							"value": "2",
+							"description": "1=home,2=pickup,3=none",
+							"type": "text"
+						},
+						{
+							"key": "shippingdate",
+							"value": "2019-12-22 16:10:00",
+							"type": "text"
+						},
+						{
+							"key": "service_charge",
+							"value": "70",
+							"description": "if Shipping type 1",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "rasedr007@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "ISshiping",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "district",
+							"value": "Dhaka",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "Dhaka",
+							"type": "text"
+						},
+						{
+							"key": "invoice_discount",
+							"value": "20",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://soft14.bdtask.com/bhojonapp/app/placeorder"
+			},
+			"response": []
+		},
+		{
+			"name": "https://soft14.bdtask.com/bhojonapp/app/sign_in",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "admin@example.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "12345",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://soft14.bdtask.com/bhojonapp/app/sign_in"
+			},
+			"response": []
+		},
+		{
+			"name": "https://soft14.bdtask.com/bhojonapp/app/customerlist",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "android",
+							"value": "123",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://soft14.bdtask.com/bhojonapp/app/customerlist"
+			},
+			"response": []
+		},
+		{
+			"name": "https://soft14.bdtask.com/bhojonapp/app/tablelist",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "android",
+							"value": "123",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://soft14.bdtask.com/bhojonapp/app/tablelist"
+			},
+			"response": []
+		},
+		{
+			"name": "https://soft14.bdtask.com/bhojonapp/app/customertypelist",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "android",
+							"value": "123",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://soft14.bdtask.com/bhojonapp/app/customertypelist"
+			},
+			"response": []
+		},
+		{
+			"name": "https://soft14.bdtask.com/bhojonapp/app/waiterlist",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "android",
+							"value": "123",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://soft14.bdtask.com/bhojonapp/app/waiterlist"
+			},
+			"response": []
+		}
+	]
+}
